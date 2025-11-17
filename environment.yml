@@ -8,3 +8,4 @@ dependencies:
   - plotly
   - jupyter
   - scikit-learn
+  - geopandas
