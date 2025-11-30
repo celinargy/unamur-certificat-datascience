@@ -9,3 +9,5 @@ dependencies:
   - jupyter
   - scikit-learn
   - geopandas
+  - networkx
+  - python-louvain
