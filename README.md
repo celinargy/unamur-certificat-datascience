@@ -8,6 +8,7 @@ Chaque dossier correspond à un cours ou un projet spécifique.
 unamur-certificat-datascience/
 
 - IDASM103_visu
+- SDASM101_graphmin_group1
 - ...
 
 ## Création et activation de l'environnement
@@ -27,3 +28,11 @@ A chaque lancement du projet, il faut activer l'environnement:
 - ouvrir un terminal
 - se placer au niveau du dossier unamur-certificat-datascience
 - conda activate master_ds
+
+## Sélection des datasets
+
+### SDASM101_graphmin_group1
+
+- http://www.sociopatterns.org/datasets/primary-school-temporal-network-data/
+
+- http://www.sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/
