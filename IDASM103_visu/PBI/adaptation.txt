@@ -1,0 +1,31 @@
+Les modifications apportées au PBI:
+
+Hormis les transformations de bases tels que changements de types et transformation de "." en "," (dû aux différences entre le système américain et européens)
+
+- Append des données de common places & airbnb en 1 seule tables
+- ajout d'une dimension Borough et Neighbourhood
+- les tables Airbnb_nta et commmon_places sont cachées
+- ajout d'une table "slicer_room_type" avec une seule colonne "room_type"
+	- son but est de permettre le tri sur le room types des airbnb sans que cela ne filtre les commonplaces de la table
+- ajout des mesures:
+ 	- average_price:
+		* prix moyen des airbnb suivant le room type (si sélectionné)
+	- Best thing to do:
+		* sélectionne les meilleurs spot suivant la sélection des airbnbs(room type) et retourne 1 si valeur est a afficher, 0 sinon. a ajouter dans en tant que filtre du visuel
+	- Count Airbnb:
+		*  nombre de airbnb suivant le room type (si sélectionné)
+	- cult_leas_score:
+		* permet de tenir prendre en compte soit le score de ulture, soit le score de recreation. Utiliser sur la map de Borough pour impacter les zones suivant le choix sélectionné
+	- Cultural spot:
+		-nombre de culture spot suivant le room type (si sélectionné)
+	- message quartier:
+		* affiche un message en haut de page pour indiquer le borough ou le neighbour sélectionné a coté du titre
+	- rate_review_airbnb:
+		* moyenne des scores de review des airbnb
+	- recreation spot:
+		* nombre de recreation spot suivant le room type (si sélectionné)
+	- show_point_map:
+		* sélectionne les points a montrer sur la carte. Elle affiche toujours les common places, mais adaptent les airbnb suivant le room_type filtrer. A utiliser en tant que filtre sur 1
+	- surm review_airbnb:
+		* somme du nombre de review si le lieu pour les airbnb
+
