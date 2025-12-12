@@ -11,3 +11,4 @@ dependencies:
   - geopandas
   - networkx
   - python-louvain
+  - python-igraph
